@@ -1,0 +1,29 @@
+main
+{
+  width: 100%;
+  min-height: 700px;
+}
+
+#loginBG main
+{
+  /* Correct form vertical align applying */
+  height: 0px;
+}
+
+#login-form
+{
+  width: 39%;
+  margin: auto 0px;
+  text-align: center;
+}
+
+#login-form .form-inputs input
+{
+  width: 100%;
+}
+
+#login-form .btn-pink
+{
+  width: 80%;
+  font-size: 0.78em;
+}
