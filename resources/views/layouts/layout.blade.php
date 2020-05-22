@@ -9,6 +9,24 @@
 
     </head>
     <body>
+      <header>
+        <div class="limitation">
+          <a href="#" id = "header-logo">
+            <h3>Hello World!</h3>
+          </a>
 
+          <div class="user-avatar"></div>
+
+          <nav class = "flex-between">
+            <a href="#" id = "list-icon"></a>
+            <a href="#" id = "group-icon"></a>
+            <a href="#" id = "logout-icon"></a>
+          </nav>
+        </div>
+      </header>
+
+      <main>
+        @yield('content')
+      </main>
     </body>
 </html>
