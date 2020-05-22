@@ -1,0 +1,35 @@
+header
+{
+  width: 100%;
+  height: 133px;
+  background-color: #09222b;
+}
+
+header .limitation
+{
+  flex-flow: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#loginBG
+{
+  width: 100%;
+  height: 100%;
+  background-image: url('../images/loginBG.jpg');
+  background-color: rgba(0, 0, 0, 0.5);
+  background-size: cover;
+  background-blend-mode: multiply;
+}
+
+#loginBG header
+{
+  background-color: transparent;
+}
+
+#header-logo h3
+{
+  font-family: 'Oneday';
+  font-weight: normal;
+  font-style: normal;
+}
