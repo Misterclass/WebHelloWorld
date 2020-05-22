@@ -1,0 +1,50 @@
+form input
+{
+  border-radius: 30px;
+  background-color: rgb(226, 226, 226);
+  padding: 20px;
+  color: rgba(115, 115, 115, 0.702);
+  line-height: 1;
+  font-size: inherit;
+  font-family: inherit;
+  border: none;
+}
+
+form input:focus
+{
+  border: none;
+  outline: none;
+}
+
+input[type = "submit"],
+input[type = "button"],
+button,
+label.button
+{
+  box-shadow: 0px 15px 24px 0px rgba(0, 0, 0, 0.15);
+  font-size: 1.33em;
+  font-family: inherit;
+  color: inherit;
+  cursor: pointer;
+}
+
+.btn-pink
+{
+  background-color: rgb(115, 0, 50);
+}
+
+.btn-blue
+{
+  background-color: #09222b;
+}
+
+.form-inputs
+{
+  width: 100%;
+  margin: 54px 0px;
+}
+
+.form-inputs input:not(:last-child)
+{
+  margin-bottom: 46px;
+}
