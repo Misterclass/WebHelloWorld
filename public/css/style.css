@@ -1,1 +1,50 @@
 @import "fonts.css" all;
+@import "header.css" all;
+
+
+*
+{
+  box-sizing: border-box;
+}
+
+body
+{
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  font-family: 'GothamPro';
+  font-size: 18px;
+  height: 1080px;
+  color: #fff;
+}
+
+h3
+{
+  font-size: 1.33em;
+}
+
+h2
+{
+  font-size: 2em;
+}
+
+a, a:visited, a:active
+{
+  color: inherit;
+  text-decoration: none;
+}
+
+.limitation
+{
+  width: 61%;
+  height: 100%;
+  margin: 0px auto;
+  display: flex;
+  flex-flow: column;
+}
+
+.flex-between
+{
+  display: flex;
+  justify-content: space-between;
+}
