@@ -53,6 +53,12 @@ a, a:visited, a:active
   justify-content: space-between;
 }
 
+.flex-around
+{
+  display: flex;
+  justify-content: space-around;
+}
+
 .flex-row-between
 {
   display: flex;
