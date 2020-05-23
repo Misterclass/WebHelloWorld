@@ -21,4 +21,10 @@ Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
 Route::get('/students', 'GroupController@index')->name('students');
+
+Route::get('/student', function()
+{
+  return view('student');
+})->name('student');
+
 Route::resource('snippets','SnippetController');

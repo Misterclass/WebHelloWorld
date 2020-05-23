@@ -79,5 +79,20 @@ a, a:visited, a:active
   height: 88px;
   border-radius: 50%;
   background-image: url("../images/icons/user.png");
-  background-size: cover;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.text-center
+{
+  text-align: center;
+}
+
+.back
+{
+  width: 100%;
+  height: 100px;
+  background-image: url('../images/icons/return2.png');
+  background-size: contain;
+  background-repeat: no-repeat;
 }
