@@ -175,4 +175,31 @@
       margin: 0;
     }
 
+    .back
+    {
+      display: none;
+    }
+
+    #student-information
+    {
+      flex-flow: column;
+      align-items: center;
+      text-align: center;
+      border: none;
+      height: auto;
+      padding: 19px 0px 0px 0px;
+    }
+
+    #student-information .user-avatar
+    {
+      width: 176px;
+      height: 177px;
+    }
+
+    #student-content
+    {
+      margin: 0;
+    }
+
+
 }
