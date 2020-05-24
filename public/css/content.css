@@ -83,10 +83,11 @@ main
   font-weight: bold;
 }
 
-.task-status h3
+/* .task-status::before
 {
-  font-size: 1.66em;
-}
+  /* font-size: 1.66em;
+  font-weight: bold; */
+} */
 
 .task-content
 {
@@ -108,10 +109,21 @@ main
   color: #10f025;
 }
 
+.task-done::before
+{
+  content: "Решена";
+}
+
 .task-unresolved
 {
   color: #730032;
 }
+
+.task-unresolved::before
+{
+  content: "Не решена";
+}
+
 
 #students-group
 {

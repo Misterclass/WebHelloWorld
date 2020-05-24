@@ -118,6 +118,7 @@
     .task-content p
     {
       margin: 15px 0px;
+      text-align: center;
     }
 
     .task-status
@@ -139,6 +140,51 @@
     {
       display: none;
     }
+
+    .student-task
+    {
+      justify-content: space-between;
+    }
+
+    .student-task .task-lang
+    {
+      margin-right: 0;
+    }
+
+    .student-task .task-status
+    {
+      flex: 0;
+    }
+
+    .student-task .task-status::before
+    {
+      border-radius: 50%;
+      width: 18px;
+      height: 18px;
+    }
+
+    .student-task .task-done::before
+    {
+      content: "";
+      background-color: #10f025;
+    }
+
+    .student-task .task-unresolved::before
+    {
+      content: "";
+      background-color: #730032;
+    }
+
+    .Ellipse_595 {
+
+  background-color: rgb(16, 240, 37);
+  position: absolute;
+  left: 2003px;
+  top: 517px;
+
+  z-index: 144;
+}
+
 
     #snippet-form .form-inputs:first-child
     {

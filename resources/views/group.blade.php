@@ -18,7 +18,7 @@
                   <p>Калькулятор</p>
                 </div>
                 <div class="task-status task-done">
-                  <p>Решена</p>
+
                 </div>
               </div>
 
@@ -28,7 +28,7 @@
                   <p>Калькулятор</p>
                 </div>
                 <div class="task-status task-unresolved">
-                  <p>Нерешена</p>
+
                 </div>
               </div>
             </div>
@@ -48,7 +48,7 @@
                   <p>Калькулятор</p>
                 </div>
                 <div class="task-status task-done">
-                  <p>Решена</p>
+
                 </div>
               </div>
 
@@ -58,7 +58,7 @@
                   <p>Калькулятор</p>
                 </div>
                 <div class="task-status task-unresolved">
-                  <p>Нерешена</p>
+                  
                 </div>
               </div>
             </div>
@@ -77,7 +77,7 @@
               <p>Калькулятор</p>
             </div>
             <div class="task-status task-done">
-              <p>Решена</p>
+
             </div>
           </div>
 
@@ -87,7 +87,7 @@
               <p>Калькулятор</p>
             </div>
             <div class="task-status task-unresolved">
-              <p>Нерешена</p>
+
             </div>
           </div>
         </div>

@@ -38,7 +38,7 @@
           </p>
         </div>
         <div class="task-status task-done">
-          <h3>Решена</h3>
+          
         </div>
       </div>
       <div class="task">
@@ -54,7 +54,7 @@
           </p>
         </div>
         <div class="task-status task-unresolved">
-          <h3>Нерешена</h3>
+
         </div>
       </div>
       <div class="task-mobile">
@@ -72,7 +72,7 @@
           nisi ut aliquip ex ea commodo consequat.
         </p>
         <div class="task-status task-done">
-          <h3>Решена</h3>
+
         </div>
       </div>
 <div class="task-mobile">
@@ -90,7 +90,7 @@
           nisi ut aliquip ex ea commodo consequat.
         </p>
         <div class="task-status task-unresolved">
-          <h3>Нерешена</h3>
+
         </div>
       </div>
     </div>
