@@ -2,6 +2,7 @@
 @import "header.css" all;
 @import "content.css" all;
 @import "form.css" all;
+@import "tablet.css" all;
 
 
 *
@@ -30,6 +31,9 @@ h2
 {
   font-size: 2em;
   text-transform: uppercase;
+  font-weight: 900;
+  font-style: normal;
+
 }
 
 a, a:visited, a:active

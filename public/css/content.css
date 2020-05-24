@@ -258,18 +258,6 @@ main
   height: auto;
 }
 
-.Ellipse_3 {
-  border-radius: 50%;
-  background-color: rgb(40, 40, 40);
-  position: absolute;
-  left: 7699px;
-  top: 147px;
-  width: 350px;
-  height: 349px;
-  z-index: 192;
-}
-
-
 #student-content
 {
   margin-left: 42px;

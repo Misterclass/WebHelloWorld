@@ -1,0 +1,12 @@
+  @media (min-width:1000px) and (max-width:1500px)
+  {
+    .limitation
+    {
+      width: 92.5% !important;
+    }
+
+    h2
+    {
+      font-size: 1.67em;
+    }
+  }
