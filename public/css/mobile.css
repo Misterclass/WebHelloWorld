@@ -141,6 +141,12 @@
       display: none;
     }
 
+    .student-card .user-avatar
+    {
+      width: 65px;
+      height: 65px;
+    }
+
     .student-task
     {
       justify-content: space-between;
