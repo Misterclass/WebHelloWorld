@@ -1,4 +1,4 @@
-  @media (min-width:1000px) and (max-width:1500px)
+  @media (min-width:900px) and (max-width:1500px)
   {
     .limitation
     {
@@ -8,5 +8,33 @@
     h2
     {
       font-size: 1.67em;
+    }
+  }
+
+  @media (min-width:700px) and (max-width:900px)
+  {
+    .limitation
+    {
+      width: 92.5% !important;
+    }
+
+    h2
+    {
+      font-size: 1.67em;
+    }
+
+    #login-form
+    {
+      width: 50%;
+    }
+
+    .task
+    {
+      height: 300px;
+    }
+
+    .task-content
+    {
+      width: 40%;
     }
   }

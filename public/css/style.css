@@ -81,7 +81,6 @@ a, a:visited, a:active
 {
   width: 89px;
   height: 88px;
-  border-radius: 50%;
   background-image: url("../images/icons/user.png");
   background-size: contain;
   background-repeat: no-repeat;
