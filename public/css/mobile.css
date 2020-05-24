@@ -268,5 +268,10 @@
       margin: 0;
     }
 
+    .btn-pink, .btn-blue
+    {
+      font-size: 0.77em !important;
+    }
+
 
 }

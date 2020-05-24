@@ -27,7 +27,7 @@
             <span></span>
           </label>
         </div>
-        <input type="submit" value="Авторизоваться" class = "btn-pink" id = "task-submit">
+        <input type="submit" value="Сохранить" class = "btn-pink" id = "task-submit">
         <input type="reset" value="Отмена" class = "btn-blue">
       </div>
     </form>
