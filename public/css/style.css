@@ -87,6 +87,11 @@ a, a:visited, a:active
   justify-content: flex-end;
 }
 
+.flex-vertical-center
+{
+  align-items: center;
+}
+
 .user-avatar
 {
   width: 89px;

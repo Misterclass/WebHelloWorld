@@ -12,6 +12,11 @@ header .limitation
   align-items: center;
 }
 
+.mobile-menu, .mobile-nav
+{
+  display: none;
+}
+
 #loginBG
 {
   width: 100%;

@@ -130,6 +130,13 @@ main
 
 .student-card
 {
+  border-radius: 30px;
+  background-color: #198799;
+  margin-bottom: 30px;
+}
+
+.student-card-header
+{
   width: 100%;
   height: 105px;
   border-radius: 30px;
@@ -139,16 +146,26 @@ main
   justify-content: space-between;
   align-items: center;
   padding: 0px 35px;
-  margin-bottom: 30px;
 }
 
-.student-card .clipboards
+.student-card-header .clipboards
 {
   width: 60px;
   height: 71px;
   background-image: url("../images/icons/clipboards.png");
   background-size: contain;
   background-repeat: no-repeat;
+}
+
+.student-card-tasks
+{
+  display: none;
+  padding: 19px 20px 28px 20px;
+}
+
+.student-card-tasks .tasks-list
+{
+  margin: 0;
 }
 
 #student-tasks

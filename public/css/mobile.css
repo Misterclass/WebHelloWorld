@@ -30,6 +30,7 @@
       background-size: contain;
       margin-right: auto;
       cursor: pointer;
+      display: block;
     }
 
     ul.mobile-nav
@@ -111,5 +112,15 @@
     .task-status h3
     {
       margin: 0;
+    }
+
+    #students-list
+    {
+      width: 100%;
+    }
+
+    #student-tasks
+    {
+      display: none;
     }
 }
