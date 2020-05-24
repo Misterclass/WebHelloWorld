@@ -6,8 +6,61 @@
       height: 700px !important;
     }
 
+    header
+    {
+      position: fixed;
+    }
+
+    header .user-avatar
+    {
+      display: none;
+    }
+
+    header nav
+    {
+      display: none !important;
+    }
+
+    .mobile-menu
+    {
+      width: 47px;
+      height: 33px;
+      background-image: url("../images/icons/open-menu.png");
+      background-repeat: no-repeat;
+      background-size: contain;
+      margin-right: auto;
+      cursor: pointer;
+    }
+
+    ul.mobile-nav
+    {
+      width: 67%;
+      position: fixed;
+      background-color: #09222b;
+      font-weight: bold;
+      margin: 0;
+      padding: 0;
+      display: none;
+    }
+
+    ul.mobile-nav li
+    {
+      padding: 18px 30px;
+    }
+
+    ul.mobile-nav li:hover
+    {
+      background-color: #198a9c;
+    }
+
+    #header-logo
+    {
+      margin-right: auto;
+    }
+
     main
     {
+      padding-top: 133px;
       min-height: 400px !important;
     }
 

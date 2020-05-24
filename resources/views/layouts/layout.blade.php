@@ -11,6 +11,10 @@
     <body>
       <header>
         <div class="limitation">
+          <div class="mobile-menu">
+
+          </div>
+
           <a href="#" id = "header-logo">
             <h3>Hello World!</h3>
           </a>
@@ -26,6 +30,12 @@
       </header>
 
       <main>
+        <ul class = "mobile-nav">
+          <a href="#"><li>Мои задачи</li></a>
+          <a href="#"><li>Добавить задачу</li></a>
+          <a href="#"><li>Другие студенты</li></a>
+          <a href="#"><li>Выйти</li></a>
+        </ul>
         @yield('content')
       </main>
     </body>
