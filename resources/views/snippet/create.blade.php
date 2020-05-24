@@ -21,7 +21,6 @@
       </a>
       <div class="form-buttons flex-around">
         <div class = "task-status">
-          <span>Статус задачи:</span>
           <input type="checkbox" name="status" value="unresolved" id = "task-status">
           <label for="task-status">
             <!-- For correct task status rendering from CSS -->

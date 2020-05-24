@@ -9,6 +9,7 @@
     header
     {
       position: fixed;
+      height: 70px;
     }
 
     header .user-avatar
@@ -61,7 +62,7 @@
 
     main
     {
-      padding-top: 133px;
+      padding-top: 70px;
       min-height: 400px !important;
     }
 
@@ -123,4 +124,55 @@
     {
       display: none;
     }
+
+    #snippet-form .form-inputs:first-child
+    {
+      display: block;
+    }
+
+    #snippet-form .form-inputs:first-child input
+    {
+      margin-bottom: 23px;
+    }
+
+    #snippet-form .form-inputs input, #snippet-form .form-inputs select
+    {
+      width: 100%;
+    }
+
+    #snippet-form textarea
+    {
+      height: 390px;
+    }
+
+    .form-inputs
+    {
+      margin: 23px 0px;
+    }
+
+    #task-content-link
+    {
+      text-align: center;
+    }
+
+    #snippet-form .task-status::before
+    {
+      content: "";
+    }
+
+    #snippet-form .form-buttons input[type = "reset"]
+    {
+      display: none;
+    }
+
+    #task-status + label:before
+    {
+      margin: 0px 15px 0px 0px;
+    }
+
+    #task-submit
+    {
+      margin: 0;
+    }
+
 }

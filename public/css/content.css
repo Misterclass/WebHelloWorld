@@ -256,6 +256,11 @@ main
   justify-content: flex-start;
 }
 
+#snippet-form .task-status::before
+{
+  content: "Статус задачи:";
+}
+
 #task-submit
 {
   margin-right: 70px;
@@ -267,6 +272,7 @@ main
   align-items: center;
   cursor: pointer;
 }
+
 
 #task-status + label:before
 {
