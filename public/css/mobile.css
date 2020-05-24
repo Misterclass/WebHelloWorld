@@ -82,11 +82,34 @@
 
     .task
     {
-      height: 300px;
+      display: none;
     }
 
-    .task-content
+    .task-mobile
     {
-      width: 40%;
+      height: 300px;
+      display: block;
+    }
+
+    .task-lang
+    {
+      width: 63px;
+      height: 63px;
+      margin: 0 16px 0px 0px;
+    }
+
+    .task-content p
+    {
+      margin: 15px 0px;
+    }
+
+    .task-status
+    {
+      height: auto;
+    }
+
+    .task-status h3
+    {
+      margin: 0;
     }
 }

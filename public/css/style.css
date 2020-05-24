@@ -56,6 +56,11 @@ a, a:visited, a:active
   flex-flow: column;
 }
 
+.flex
+{
+  display: flex;
+}
+
 .flex-between
 {
   display: flex;
