@@ -1,0 +1,39 @@
+
+  @media (min-width:500px) and (max-width:700px)
+  {
+    body
+    {
+      height: 700px !important;
+    }
+
+    main
+    {
+      min-height: 400px !important;
+    }
+
+    .limitation
+    {
+      width: 92.5% !important;
+      justify-content: center !important;
+    }
+
+    h2
+    {
+      font-size: 1.67em;
+    }
+
+    #login-form
+    {
+      width: 80%;
+    }
+
+    .task
+    {
+      height: 300px;
+    }
+
+    .task-content
+    {
+      width: 40%;
+    }
+}
