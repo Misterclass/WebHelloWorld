@@ -60,6 +60,21 @@
       margin-right: auto;
     }
 
+    #loginBG
+    {
+      height: auto;
+    }
+
+    #loginBG header
+    {
+      position: static;
+    }
+
+    #loginBG #header-logo
+    {
+      margin: 0;
+    }
+
     main
     {
       padding-top: 70px;
@@ -80,6 +95,7 @@
     #login-form
     {
       width: 80%;
+      margin: 0;
     }
 
     .task
