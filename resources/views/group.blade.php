@@ -143,7 +143,7 @@
   function GenerateCardHtml($parent, data)
   {
     $parent.find(".student-task").remove();
-    
+
     data.forEach((item, i) =>
     {
       let html = GetHtmlSnippet(item);
@@ -208,10 +208,10 @@
       <div id="student-tasks">
         <div class="student-info">
           <div class="user-avatar"></div>
-          <p>Кто-то Тамович</p>
+          <p></p>
         </div>
         <div class="tasks-list">
-          <div class="student-task">
+          <!-- <div class="student-task">
             <div class="task-lang"></div>
             <div class="task-content">
               <p>Калькулятор</p>
@@ -229,7 +229,7 @@
             <div class="task-status task-unresolved">
 
             </div>
-          </div>
+          </div> -->
         </div>
       </div>
     </div>
