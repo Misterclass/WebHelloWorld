@@ -72,7 +72,7 @@
 
   <div class="limitation">
     <div class="tasks-list">
-        <div class="task">
+        <!-- <div class="task">
           <div class="task-lang"></div>
           <div class="task-content">
             <h3>Калькулятор</h3>
@@ -87,7 +87,7 @@
           <div class="task-status task-done">
 
           </div>
-        </div>
+        </div> -->
         <!-- <div class="task-mobile">
           <div class="flex">
             <div class="task-lang"></div>

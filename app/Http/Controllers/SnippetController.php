@@ -74,7 +74,7 @@ class SnippetController extends Controller
                           : "No code";
 
       $snippet->description = $_POST['description'];
-      $snippet->linenos = (isset($_POST['task-status'])) ? $_POST['task-status'] : "unresolved";
+      $snippet->linenos = (isset($_POST['task-status'])) ? "done" : "unresolved";
       $snippet->language = $_POST['prog-lang'];
 
       $snippet->save();

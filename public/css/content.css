@@ -272,6 +272,11 @@ main
   text-decoration: underline;
 }
 
+#snippet-form .form-buttons
+{
+  margin-bottom: 40px;
+}
+
 #snippet-form .task-status
 {
   width: 33%;

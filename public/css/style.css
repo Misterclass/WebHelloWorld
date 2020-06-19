@@ -87,6 +87,13 @@ a, a:visited, a:active
   justify-content: flex-end;
 }
 
+.flex-column-between
+{
+  display: flex;
+  flex-flow: column;
+  justify-content: space-between;
+}
+
 .flex-vertical-center
 {
   align-items: center;
