@@ -39,10 +39,10 @@
 
       <main>
         <ul class = "mobile-nav">
-          <a href="#"><li>Мои задачи</li></a>
-          <a href="#"><li>Добавить задачу</li></a>
-          <a href="#"><li>Другие студенты</li></a>
-          <a href="#"><li>Выйти</li></a>
+          <a href="{{ route('home') }}"><li>Мои задачи</li></a>
+          <a href="{{ route('snippets.create') }}#"><li>Добавить задачу</li></a>
+          <a href="{{ route('students') }}"><li>Другие студенты</li></a>
+          <a href="{{ route('index') }}"><li>Выйти</li></a>
         </ul>
         @yield('content')
       </main>
