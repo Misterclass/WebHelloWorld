@@ -47,4 +47,11 @@ class UsersController extends Controller
 
       return redirect('/');
     }
+
+    public function getUserSnippets($userName)
+    {
+      $showUser = User::where('username', $userName)->first();
+      $snippets = Snippets::where('owner', $showUser->id)->get();
+      return json_encode($snippets);
+    }
 }

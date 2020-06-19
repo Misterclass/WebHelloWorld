@@ -18,6 +18,7 @@ Route::get('/', function () {
 })->name('index');
 
 Route::get('/users/{id}', 'UsersController@show')->name('users');
+Route::get('/users/snippets/{userName}', 'UsersController@getUserSnippets')->name('users.snippets');
 Route::get('/home', 'HomeController@index')->name('home');
 Route::get('/home/snippets', 'HomeController@getSnippets')->name('home.snippets');
 Route::get('/users', 'GroupController@index')->name('students');

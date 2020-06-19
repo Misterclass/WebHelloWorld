@@ -166,6 +166,7 @@ main
   justify-content: space-between;
   align-items: center;
   padding: 0px 35px;
+  cursor: pointer;
 }
 
 .student-card-header .clipboards
@@ -175,6 +176,11 @@ main
   background-image: url("../images/icons/clipboards.png");
   background-size: contain;
   background-repeat: no-repeat;
+}
+
+.student-card-open .student-card-tasks
+{
+  display: block;
 }
 
 .student-card-tasks
