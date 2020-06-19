@@ -8,6 +8,13 @@
         <title>Hello World</title>
         <link rel="stylesheet" href="{{ asset('css/style.css') }}">
 
+        <!-- Jquery CDN -->
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.js"
+      integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc="
+      crossorigin="anonymous"></script>
+      <script src="{{ asset('js/script.js') }}" charset="utf-8"></script>
+
     </head>
     <body>
       <header>
@@ -23,9 +30,9 @@
           <div class="user-avatar"></div>
 
           <nav class = "flex-between">
-            <a href="#" id = "list-icon"></a>
-            <a href="#" id = "group-icon"></a>
-            <a href="#" id = "logout-icon"></a>
+            <a href="{{ route('home') }}" id = "list-icon"></a>
+            <a href="{{ route('students') }}" id = "group-icon"></a>
+            <a href="{{ route('index') }}" id = "logout-icon"></a>
           </nav>
         </div>
       </header>

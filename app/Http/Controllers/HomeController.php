@@ -41,11 +41,6 @@ class HomeController extends Controller
         $user = User::find($userId);
 
         $snippets = $this->GetUserSnippets($user);
-
-        $data =
-        [
-          'snippets' => $snippets
-        ];
         return json_encode($snippets);
       }
 
