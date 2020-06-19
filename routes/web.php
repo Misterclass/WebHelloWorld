@@ -15,16 +15,18 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('/', function () {
     return view('login');
-});
+})->name('index');
 
-Auth::routes();
-
+Route::get('/users/{id}', 'UsersController@show')->name('users');
 Route::get('/home', 'HomeController@index')->name('home');
-Route::get('/students', 'GroupController@index')->name('students');
+Route::get('/home/snippets', 'HomeController@getSnippets')->name('home.snippets');
+Route::get('/users', 'GroupController@index')->name('students');
+Route::get('/userslist', 'GroupController@getUsers')->name('users.list');
+Route::post('/api-token-auth', 'LoginController@login')->name('login');
 
-Route::get('/student', function()
-{
-  return view('student');
-})->name('student');
-
-Route::resource('snippets','SnippetController');
+Route::get('snippets/create','SnippetController@create')->name('snippets.create');
+Route::get('snippets/edit/{id}','SnippetController@edit')->name('snippets.edit');
+Route::get('snippets/{id}','SnippetController@show')->name('snippets.show');
+Route::post('snippets','SnippetController@store')->name('snippets.store');
+Route::post('snippets/{id}','SnippetController@update')->name('snippets.update');
+Route::get('snippets/destroy/{id}','SnippetController@destroy')->name('snippets.delete');

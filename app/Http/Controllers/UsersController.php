@@ -3,12 +3,10 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
-use Illuminate\Support\Facades\DB;
 use App\User;
 use App\Snippets;
 
-
-class HomeController extends Controller
+class UsersController extends Controller
 {
     /**
      * Create a new controller instance.
@@ -25,12 +23,7 @@ class HomeController extends Controller
      *
      * @return \Illuminate\Contracts\Support\Renderable
      */
-    public function index()
-    {
-      return view('home');
-    }
-
-    public function getSnippets()
+    public function show($id)
     {
       session_start();
       $userId = $_SESSION['token'];
@@ -39,22 +32,19 @@ class HomeController extends Controller
       {
         $userId = $_SESSION['token'];
         $user = User::find($userId);
+        $showUser = User::find($id);
 
-        $snippets = $this->GetUserSnippets($user);
+        $showUser->snippets = Snippets::where('owner', $showUser->id)->paginate(4);
 
         $data =
         [
-          'snippets' => $snippets
+          'currentUser' => $showUser
         ];
-        return json_encode($snippets);
+
+
+        return view('student', $data);
       }
 
-      return "Error";
-    }
-
-    private function GetUserSnippets($user)
-    {
-      $snippets = Snippets::where('owner', $user->id)->get();
-      return $snippets;
+      return redirect('/');
     }
 }
