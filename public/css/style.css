@@ -61,6 +61,12 @@ a, a:visited, a:active
   display: flex;
 }
 
+.flex-center
+{
+  display: flex;
+  justify-content: center;
+}
+
 .flex-between
 {
   display: flex;

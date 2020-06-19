@@ -6,6 +6,9 @@
 
     function GetHtmlSnippet(snippet)
     {
+      let link = document.createElement('a');
+      link.setAttribute("href", "http://127.0.0.1:8000/snippets/" + snippet.id);
+
       let task = document.createElement('div');
       task.className = "task";
 
@@ -40,7 +43,9 @@
       task.appendChild(taskContent);
       task.appendChild(taskStatus);
 
-      return task;
+      link.appendChild(task);
+
+      return link;
     }
 
     $(document).ready(function()
@@ -140,6 +145,11 @@
 
           </div>
         </div> -->
+    </div>
+    <div class="flex-center">
+      <a href="{{ route('snippets.create') }}">
+        Создать задачу
+      </a>
     </div>
   </div>
 @endsection
