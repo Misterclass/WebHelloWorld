@@ -88,7 +88,8 @@ main
   font-weight: bold;
 }
 
-.tasks-list .task-status
+.tasks-list .task-status,
+#current-task .task-status
 {
   margin: auto 0px auto auto;
 }
@@ -335,4 +336,17 @@ main
 {
   margin-left: 42px;
   flex: 1;
+}
+
+#current-task
+{
+  margin-top:50px;
+}
+
+#current-task .task-buttons
+{
+  margin: 0px auto;
+  width: 70%;
+  display: flex;
+  justify-content: space-between;
 }
